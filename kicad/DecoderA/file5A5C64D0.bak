@@ -1,0 +1,1026 @@
+EESchema Schematic File Version 2
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:Decawave
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:RF_Bluetooth
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:Sensor_Humidity
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:TensMinsDecoder-cache
+LIBS:relayclock
+EELAYER 25 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D D5
+U 1 1 5A5CA24B
+P 2250 1700
+F 0 "D5" H 2250 1800 50  0000 C CNN
+F 1 "D" H 2250 1600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 1700 50  0001 C CNN
+F 3 "" H 2250 1700 50  0001 C CNN
+	1    2250 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1700 0    60   Input ~ 0
+NUM0
+Text GLabel 2500 1050 1    60   Input ~ 0
+A
+Text GLabel 2650 1050 1    60   Input ~ 0
+B
+Text GLabel 2800 1050 1    60   Input ~ 0
+C
+Text GLabel 2950 1050 1    60   Input ~ 0
+D
+Text GLabel 3100 1050 1    60   Input ~ 0
+E
+Text GLabel 3250 1050 1    60   Input ~ 0
+F
+Text GLabel 3400 1050 1    60   Input ~ 0
+G
+Wire Wire Line
+	1900 1700 2100 1700
+$Comp
+L D D7
+U 1 1 5A5CA25B
+P 2250 2000
+F 0 "D7" H 2250 2100 50  0000 C CNN
+F 1 "D" H 2250 1900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 2000 50  0001 C CNN
+F 3 "" H 2250 2000 50  0001 C CNN
+	1    2250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D9
+U 1 1 5A5CA262
+P 2250 2300
+F 0 "D9" H 2250 2400 50  0000 C CNN
+F 1 "D" H 2250 2200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 2300 50  0001 C CNN
+F 3 "" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5A5CA269
+P 2250 2600
+F 0 "D12" H 2250 2700 50  0000 C CNN
+F 1 "D" H 2250 2500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 2600 50  0001 C CNN
+F 3 "" H 2250 2600 50  0001 C CNN
+	1    2250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D15
+U 1 1 5A5CA270
+P 2250 2900
+F 0 "D15" H 2250 3000 50  0000 C CNN
+F 1 "D" H 2250 2800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 2900 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D17
+U 1 1 5A5CA277
+P 2250 3200
+F 0 "D17" H 2250 3300 50  0000 C CNN
+F 1 "D" H 2250 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 3200 50  0001 C CNN
+F 3 "" H 2250 3200 50  0001 C CNN
+	1    2250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3200 2100 3200
+Wire Wire Line
+	2000 1700 2000 3200
+Connection ~ 2000 1700
+Wire Wire Line
+	2100 2000 2000 2000
+Connection ~ 2000 2000
+Wire Wire Line
+	2100 2300 2000 2300
+Connection ~ 2000 2300
+Wire Wire Line
+	2100 2600 2000 2600
+Connection ~ 2000 2600
+Wire Wire Line
+	2100 2900 2000 2900
+Connection ~ 2000 2900
+Wire Wire Line
+	2400 1700 2500 1700
+Wire Wire Line
+	2500 1050 2500 8300
+Wire Wire Line
+	2400 2000 2650 2000
+Wire Wire Line
+	2650 1050 2650 7100
+Wire Wire Line
+	2400 2300 2800 2300
+Wire Wire Line
+	2800 1050 2800 8600
+Wire Wire Line
+	2400 2600 2950 2600
+Wire Wire Line
+	2950 1050 2950 8900
+Wire Wire Line
+	2400 2900 3100 2900
+Wire Wire Line
+	3100 1050 3100 5000
+Wire Wire Line
+	2400 3200 3250 3200
+$Comp
+L D D19
+U 1 1 5A5CA294
+P 2250 3500
+F 0 "D19" H 2250 3600 50  0000 C CNN
+F 1 "D" H 2250 3400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 3500 50  0001 C CNN
+F 3 "" H 2250 3500 50  0001 C CNN
+	1    2250 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 3500 0    60   Input ~ 0
+NUM1
+Wire Wire Line
+	1900 3500 2100 3500
+$Comp
+L D D21
+U 1 1 5A5CA29D
+P 2250 3800
+F 0 "D21" H 2250 3900 50  0000 C CNN
+F 1 "D" H 2250 3700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 3800 50  0001 C CNN
+F 3 "" H 2250 3800 50  0001 C CNN
+	1    2250 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 3500
+Wire Wire Line
+	2100 3800 2000 3800
+Wire Wire Line
+	2000 3800 2000 3500
+Wire Wire Line
+	2650 3500 2400 3500
+Connection ~ 2650 2000
+Wire Wire Line
+	2800 3800 2400 3800
+Connection ~ 2800 2300
+$Comp
+L D D24
+U 1 1 5A5CA2AB
+P 2250 4100
+F 0 "D24" H 2250 4200 50  0000 C CNN
+F 1 "D" H 2250 4000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 4100 50  0001 C CNN
+F 3 "" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 4100 0    60   Input ~ 0
+NUM2
+Wire Wire Line
+	1900 4100 2100 4100
+$Comp
+L D D26
+U 1 1 5A5CA2B4
+P 2250 4400
+F 0 "D26" H 2250 4500 50  0000 C CNN
+F 1 "D" H 2250 4300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 4100
+Wire Wire Line
+	2100 4400 2000 4400
+Wire Wire Line
+	2000 4100 2000 5300
+Wire Wire Line
+	2500 4100 2400 4100
+Connection ~ 2500 1700
+Wire Wire Line
+	2650 4400 2400 4400
+Connection ~ 2650 3500
+$Comp
+L D D28
+U 1 1 5A5CA2C2
+P 2250 4700
+F 0 "D28" H 2250 4800 50  0000 C CNN
+F 1 "D" H 2250 4600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 4700 50  0001 C CNN
+F 3 "" H 2250 4700 50  0001 C CNN
+	1    2250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D30
+U 1 1 5A5CA2C9
+P 2250 5000
+F 0 "D30" H 2250 5100 50  0000 C CNN
+F 1 "D" H 2250 4900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D32
+U 1 1 5A5CA2D0
+P 2250 5300
+F 0 "D32" H 2250 5400 50  0000 C CNN
+F 1 "D" H 2250 5200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 5300 50  0001 C CNN
+F 3 "" H 2250 5300 50  0001 C CNN
+	1    2250 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4700 2100 4700
+Connection ~ 2000 4400
+Wire Wire Line
+	2000 5000 2100 5000
+Connection ~ 2000 4700
+Wire Wire Line
+	2000 5300 2100 5300
+Connection ~ 2000 5000
+Wire Wire Line
+	2400 5300 3400 5300
+Wire Wire Line
+	2950 4700 2400 4700
+Connection ~ 2950 2600
+Wire Wire Line
+	3100 5000 2400 5000
+Connection ~ 3100 2900
+Wire Wire Line
+	3250 1050 3250 9200
+Wire Wire Line
+	3400 1050 3400 9500
+$Comp
+L D D34
+U 1 1 5A5CA2E4
+P 2250 5600
+F 0 "D34" H 2250 5700 50  0000 C CNN
+F 1 "D" H 2250 5500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 5600 50  0001 C CNN
+F 3 "" H 2250 5600 50  0001 C CNN
+	1    2250 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 5600 0    60   Input ~ 0
+NUM3
+Wire Wire Line
+	1900 5600 2100 5600
+$Comp
+L D D36
+U 1 1 5A5CA2ED
+P 2250 5900
+F 0 "D36" H 2250 6000 50  0000 C CNN
+F 1 "D" H 2250 5800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 5900 50  0001 C CNN
+F 3 "" H 2250 5900 50  0001 C CNN
+	1    2250 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 5600
+Wire Wire Line
+	2100 5900 2000 5900
+Wire Wire Line
+	2000 5600 2000 6800
+$Comp
+L D D38
+U 1 1 5A5CA2F7
+P 2250 6200
+F 0 "D38" H 2250 6300 50  0000 C CNN
+F 1 "D" H 2250 6100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 6200 50  0001 C CNN
+F 3 "" H 2250 6200 50  0001 C CNN
+	1    2250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D40
+U 1 1 5A5CA2FE
+P 2250 6500
+F 0 "D40" H 2250 6600 50  0000 C CNN
+F 1 "D" H 2250 6400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 6500 50  0001 C CNN
+F 3 "" H 2250 6500 50  0001 C CNN
+	1    2250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D42
+U 1 1 5A5CA305
+P 2250 6800
+F 0 "D42" H 2250 6900 50  0000 C CNN
+F 1 "D" H 2250 6700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 6800 50  0001 C CNN
+F 3 "" H 2250 6800 50  0001 C CNN
+	1    2250 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6200 2100 6200
+Connection ~ 2000 5900
+Wire Wire Line
+	2000 6500 2100 6500
+Connection ~ 2000 6200
+Wire Wire Line
+	2000 6800 2100 6800
+Connection ~ 2000 6500
+Wire Wire Line
+	2500 5600 2400 5600
+Connection ~ 2500 4100
+Wire Wire Line
+	2650 5900 2400 5900
+Connection ~ 2650 4400
+Wire Wire Line
+	2800 6200 2400 6200
+Connection ~ 2800 3800
+Wire Wire Line
+	2950 6500 2400 6500
+Connection ~ 2950 4700
+Wire Wire Line
+	3400 6800 2400 6800
+Connection ~ 3400 5300
+Text GLabel 4600 1050 1    60   Input ~ 0
+A
+Text GLabel 4750 1050 1    60   Input ~ 0
+B
+Text GLabel 4900 1050 1    60   Input ~ 0
+C
+Text GLabel 5050 1050 1    60   Input ~ 0
+D
+Text GLabel 5350 1050 1    60   Input ~ 0
+F
+Text GLabel 5500 1050 1    60   Input ~ 0
+G
+$Comp
+L D D44
+U 1 1 5A5CA322
+P 2250 7100
+F 0 "D44" H 2250 7200 50  0000 C CNN
+F 1 "D" H 2250 7000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 7100 50  0001 C CNN
+F 3 "" H 2250 7100 50  0001 C CNN
+	1    2250 7100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 7100 0    60   Input ~ 0
+NUM4
+Wire Wire Line
+	1900 7100 2100 7100
+$Comp
+L D D46
+U 1 1 5A5CA32B
+P 2250 7400
+F 0 "D46" H 2250 7500 50  0000 C CNN
+F 1 "D" H 2250 7300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 7400 50  0001 C CNN
+F 3 "" H 2250 7400 50  0001 C CNN
+	1    2250 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 7100
+Wire Wire Line
+	2100 7400 2000 7400
+$Comp
+L D D48
+U 1 1 5A5CA334
+P 2250 7700
+F 0 "D48" H 2250 7800 50  0000 C CNN
+F 1 "D" H 2250 7600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 7700 50  0001 C CNN
+F 3 "" H 2250 7700 50  0001 C CNN
+	1    2250 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D50
+U 1 1 5A5CA33B
+P 2250 8000
+F 0 "D50" H 2250 8100 50  0000 C CNN
+F 1 "D" H 2250 7900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 8000 50  0001 C CNN
+F 3 "" H 2250 8000 50  0001 C CNN
+	1    2250 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7700 2100 7700
+Connection ~ 2000 7400
+Wire Wire Line
+	2000 8000 2100 8000
+Connection ~ 2000 7700
+Wire Wire Line
+	2650 7100 2400 7100
+Wire Wire Line
+	2400 7400 2800 7400
+Wire Wire Line
+	2400 7700 3250 7700
+Wire Wire Line
+	2400 8000 3400 8000
+$Comp
+L D D52
+U 1 1 5A5CA34A
+P 2250 8300
+F 0 "D52" H 2250 8400 50  0000 C CNN
+F 1 "D" H 2250 8200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 8300 50  0001 C CNN
+F 3 "" H 2250 8300 50  0001 C CNN
+	1    2250 8300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 8300 0    60   Input ~ 0
+NUM5
+Wire Wire Line
+	1900 8300 2100 8300
+$Comp
+L D D53
+U 1 1 5A5CA353
+P 2250 8600
+F 0 "D53" H 2250 8700 50  0000 C CNN
+F 1 "D" H 2250 8500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 8600 50  0001 C CNN
+F 3 "" H 2250 8600 50  0001 C CNN
+	1    2250 8600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 8300
+Wire Wire Line
+	2100 8600 2000 8600
+Wire Wire Line
+	2000 8300 2000 9500
+$Comp
+L D D54
+U 1 1 5A5CA35D
+P 2250 8900
+F 0 "D54" H 2250 9000 50  0000 C CNN
+F 1 "D" H 2250 8800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 8900 50  0001 C CNN
+F 3 "" H 2250 8900 50  0001 C CNN
+	1    2250 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D55
+U 1 1 5A5CA364
+P 2250 9200
+F 0 "D55" H 2250 9300 50  0000 C CNN
+F 1 "D" H 2250 9100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 9200 50  0001 C CNN
+F 3 "" H 2250 9200 50  0001 C CNN
+	1    2250 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D56
+U 1 1 5A5CA36B
+P 2250 9500
+F 0 "D56" H 2250 9600 50  0000 C CNN
+F 1 "D" H 2250 9400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2250 9500 50  0001 C CNN
+F 3 "" H 2250 9500 50  0001 C CNN
+	1    2250 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 8900 2100 8900
+Connection ~ 2000 8600
+Wire Wire Line
+	2000 9200 2100 9200
+Connection ~ 2000 8900
+Wire Wire Line
+	2000 9500 2100 9500
+Connection ~ 2000 9200
+Wire Wire Line
+	2000 7100 2000 8000
+Wire Wire Line
+	2500 8300 2400 8300
+Wire Wire Line
+	3400 9500 2400 9500
+Connection ~ 3400 8000
+Wire Wire Line
+	3250 9200 2400 9200
+Connection ~ 3250 7700
+Wire Wire Line
+	2950 8900 2400 8900
+Wire Wire Line
+	2800 8600 2400 8600
+Connection ~ 2800 7400
+Connection ~ 3400 6800
+Connection ~ 3250 3200
+Connection ~ 2950 6500
+Connection ~ 2800 6200
+Connection ~ 2650 5900
+Connection ~ 2500 5600
+Text GLabel 5200 1050 1    60   Input ~ 0
+E
+$Comp
+L D D6
+U 1 1 5A5CA388
+P 4350 1700
+F 0 "D6" H 4350 1800 50  0000 C CNN
+F 1 "D" H 4350 1600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 1700 50  0001 C CNN
+F 3 "" H 4350 1700 50  0001 C CNN
+	1    4350 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 1700 0    60   Input ~ 0
+NUM6
+Wire Wire Line
+	4000 1700 4200 1700
+$Comp
+L D D8
+U 1 1 5A5CA391
+P 4350 2000
+F 0 "D8" H 4350 2100 50  0000 C CNN
+F 1 "D" H 4350 1900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 2000 50  0001 C CNN
+F 3 "" H 4350 2000 50  0001 C CNN
+	1    4350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5A5CA398
+P 4350 2300
+F 0 "D10" H 4350 2400 50  0000 C CNN
+F 1 "D" H 4350 2200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 2300 50  0001 C CNN
+F 3 "" H 4350 2300 50  0001 C CNN
+	1    4350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D13
+U 1 1 5A5CA39F
+P 4350 2600
+F 0 "D13" H 4350 2700 50  0000 C CNN
+F 1 "D" H 4350 2500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 2600 50  0001 C CNN
+F 3 "" H 4350 2600 50  0001 C CNN
+	1    4350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5A5CA3A6
+P 4350 2900
+F 0 "D16" H 4350 3000 50  0000 C CNN
+F 1 "D" H 4350 2800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 2900 50  0001 C CNN
+F 3 "" H 4350 2900 50  0001 C CNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D18
+U 1 1 5A5CA3AD
+P 4350 3200
+F 0 "D18" H 4350 3300 50  0000 C CNN
+F 1 "D" H 4350 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 3200 50  0001 C CNN
+F 3 "" H 4350 3200 50  0001 C CNN
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3200 4200 3200
+Wire Wire Line
+	4100 1700 4100 3200
+Connection ~ 4100 1700
+Wire Wire Line
+	4200 2000 4100 2000
+Connection ~ 4100 2000
+Wire Wire Line
+	4200 2300 4100 2300
+Connection ~ 4100 2300
+Wire Wire Line
+	4200 2600 4100 2600
+Connection ~ 4100 2600
+Wire Wire Line
+	4200 2900 4100 2900
+Connection ~ 4100 2900
+Wire Wire Line
+	4500 1700 4600 1700
+Wire Wire Line
+	4600 1050 4600 6500
+Wire Wire Line
+	4900 1050 4900 7100
+Wire Wire Line
+	5050 1050 5050 7400
+Wire Wire Line
+	5200 1050 5200 5600
+Connection ~ 4600 1700
+Wire Wire Line
+	5350 1050 5350 7700
+Wire Wire Line
+	5500 1050 5500 8000
+Wire Wire Line
+	4500 2000 4900 2000
+Connection ~ 4900 2000
+Wire Wire Line
+	4500 2300 5050 2300
+Connection ~ 5050 2300
+Wire Wire Line
+	4500 2600 5200 2600
+Connection ~ 5200 2600
+Wire Wire Line
+	4500 2900 5350 2900
+Connection ~ 5350 2900
+Wire Wire Line
+	4500 3200 5500 3200
+Connection ~ 5500 3200
+$Comp
+L D D20
+U 1 1 5A5CA3D1
+P 4350 3500
+F 0 "D20" H 4350 3600 50  0000 C CNN
+F 1 "D" H 4350 3400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 3500 50  0001 C CNN
+F 3 "" H 4350 3500 50  0001 C CNN
+	1    4350 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 3500 0    60   Input ~ 0
+NUM7
+Wire Wire Line
+	4000 3500 4200 3500
+$Comp
+L D D22
+U 1 1 5A5CA3DA
+P 4350 3800
+F 0 "D22" H 4350 3900 50  0000 C CNN
+F 1 "D" H 4350 3700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 3800 50  0001 C CNN
+F 3 "" H 4350 3800 50  0001 C CNN
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D25
+U 1 1 5A5CA3E1
+P 4350 4100
+F 0 "D25" H 4350 4200 50  0000 C CNN
+F 1 "D" H 4350 4000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 4100 50  0001 C CNN
+F 3 "" H 4350 4100 50  0001 C CNN
+	1    4350 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 3500
+Wire Wire Line
+	4200 3800 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 4100 4200 4100
+Wire Wire Line
+	4100 3500 4100 4100
+Wire Wire Line
+	4500 3500 4600 3500
+Connection ~ 4600 3500
+Wire Wire Line
+	4500 3800 4750 3800
+Connection ~ 4750 3800
+Wire Wire Line
+	4500 4100 4900 4100
+Connection ~ 4900 4100
+$Comp
+L D D27
+U 1 1 5A5CA3F3
+P 4350 4400
+F 0 "D27" H 4350 4500 50  0000 C CNN
+F 1 "D" H 4350 4300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 4400 50  0001 C CNN
+F 3 "" H 4350 4400 50  0001 C CNN
+	1    4350 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 4400 0    60   Input ~ 0
+NUM8
+Wire Wire Line
+	4000 4400 4200 4400
+$Comp
+L D D29
+U 1 1 5A5CA3FC
+P 4350 4700
+F 0 "D29" H 4350 4800 50  0000 C CNN
+F 1 "D" H 4350 4600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 4700 50  0001 C CNN
+F 3 "" H 4350 4700 50  0001 C CNN
+	1    4350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D31
+U 1 1 5A5CA403
+P 4350 5000
+F 0 "D31" H 4350 5100 50  0000 C CNN
+F 1 "D" H 4350 4900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 5000 50  0001 C CNN
+F 3 "" H 4350 5000 50  0001 C CNN
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D33
+U 1 1 5A5CA40A
+P 4350 5300
+F 0 "D33" H 4350 5400 50  0000 C CNN
+F 1 "D" H 4350 5200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 5300 50  0001 C CNN
+F 3 "" H 4350 5300 50  0001 C CNN
+	1    4350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D35
+U 1 1 5A5CA411
+P 4350 5600
+F 0 "D35" H 4350 5700 50  0000 C CNN
+F 1 "D" H 4350 5500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 5600 50  0001 C CNN
+F 3 "" H 4350 5600 50  0001 C CNN
+	1    4350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D37
+U 1 1 5A5CA418
+P 4350 5900
+F 0 "D37" H 4350 6000 50  0000 C CNN
+F 1 "D" H 4350 5800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 5900 50  0001 C CNN
+F 3 "" H 4350 5900 50  0001 C CNN
+	1    4350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4400 4100 6200
+Connection ~ 4100 4400
+Wire Wire Line
+	4200 4700 4100 4700
+Connection ~ 4100 4700
+Wire Wire Line
+	4200 5000 4100 5000
+Connection ~ 4100 5000
+Wire Wire Line
+	4200 5300 4100 5300
+Connection ~ 4100 5300
+Wire Wire Line
+	4200 5600 4100 5600
+Connection ~ 4100 5600
+Wire Wire Line
+	4500 4400 4600 4400
+Connection ~ 4600 4400
+Wire Wire Line
+	4750 4700 4500 4700
+Connection ~ 4750 4700
+Wire Wire Line
+	4900 5000 4500 5000
+Connection ~ 4900 5000
+Wire Wire Line
+	5200 5600 4500 5600
+Wire Wire Line
+	4500 5300 5050 5300
+Connection ~ 5050 5300
+Wire Wire Line
+	4100 5900 4200 5900
+Wire Wire Line
+	4500 5900 5350 5900
+Connection ~ 5350 5900
+$Comp
+L D D39
+U 1 1 5A5CA435
+P 4350 6200
+F 0 "D39" H 4350 6300 50  0000 C CNN
+F 1 "D" H 4350 6100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 6200 50  0001 C CNN
+F 3 "" H 4350 6200 50  0001 C CNN
+	1    4350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6200 4200 6200
+Connection ~ 4100 5900
+Wire Wire Line
+	4500 6200 5500 6200
+Connection ~ 5500 6200
+$Comp
+L D D41
+U 1 1 5A5CA440
+P 4350 6500
+F 0 "D41" H 4350 6600 50  0000 C CNN
+F 1 "D" H 4350 6400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 6500 50  0001 C CNN
+F 3 "" H 4350 6500 50  0001 C CNN
+	1    4350 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 6500 0    60   Input ~ 0
+NUM9
+Wire Wire Line
+	4000 6500 4200 6500
+$Comp
+L D D43
+U 1 1 5A5CA449
+P 4350 6800
+F 0 "D43" H 4350 6900 50  0000 C CNN
+F 1 "D" H 4350 6700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 6800 50  0001 C CNN
+F 3 "" H 4350 6800 50  0001 C CNN
+	1    4350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D45
+U 1 1 5A5CA450
+P 4350 7100
+F 0 "D45" H 4350 7200 50  0000 C CNN
+F 1 "D" H 4350 7000 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 7100 50  0001 C CNN
+F 3 "" H 4350 7100 50  0001 C CNN
+	1    4350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D47
+U 1 1 5A5CA457
+P 4350 7400
+F 0 "D47" H 4350 7500 50  0000 C CNN
+F 1 "D" H 4350 7300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 7400 50  0001 C CNN
+F 3 "" H 4350 7400 50  0001 C CNN
+	1    4350 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D49
+U 1 1 5A5CA45E
+P 4350 7700
+F 0 "D49" H 4350 7800 50  0000 C CNN
+F 1 "D" H 4350 7600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 7700 50  0001 C CNN
+F 3 "" H 4350 7700 50  0001 C CNN
+	1    4350 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D51
+U 1 1 5A5CA465
+P 4350 8000
+F 0 "D51" H 4350 8100 50  0000 C CNN
+F 1 "D" H 4350 7900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4350 8000 50  0001 C CNN
+F 3 "" H 4350 8000 50  0001 C CNN
+	1    4350 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 8000 4200 8000
+Wire Wire Line
+	4100 6500 4100 8000
+Connection ~ 4100 6500
+Wire Wire Line
+	4200 6800 4100 6800
+Connection ~ 4100 6800
+Wire Wire Line
+	4200 7100 4100 7100
+Connection ~ 4100 7100
+Wire Wire Line
+	4200 7400 4100 7400
+Connection ~ 4100 7400
+Wire Wire Line
+	4200 7700 4100 7700
+Connection ~ 4100 7700
+Wire Wire Line
+	4600 6500 4500 6500
+Wire Wire Line
+	4750 6800 4500 6800
+Wire Wire Line
+	4750 1050 4750 6800
+Wire Wire Line
+	4900 7100 4500 7100
+Wire Wire Line
+	5050 7400 4500 7400
+Wire Wire Line
+	5350 7700 4500 7700
+Wire Wire Line
+	5500 8000 4500 8000
+$EndSCHEMATC

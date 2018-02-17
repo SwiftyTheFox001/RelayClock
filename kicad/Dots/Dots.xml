@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/martin/projects/relayclock/kicad/Dots/Dots.sch</source>
+    <date>Son 14 Jän 2018 16:22:13 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Dots.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>2k5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7993</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>20k</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7A40</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7A84</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7C02</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7C78</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP1117-ADJ</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="regul" part="AP1117-ADJ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D7E93</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8280</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D83A1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8937</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D89AD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D89F9</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8A44</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8A9C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad0.97x1.50mm_HandSolder</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8AE5</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_DSG</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_DSG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8D09</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NMOS_DSG</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_DSG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D8D63</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D99F5</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5D9A9D</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>FTR-B4</value>
+      <footprint>relayclock:FTR-B4_PTH</footprint>
+      <libsource lib="relayclock" part="FTR-B4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DA460</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>FTR-B4</value>
+      <footprint>relayclock:FTR-B4_PTH</footprint>
+      <libsource lib="relayclock" part="FTR-B4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DC1C2</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>FTR-B4</value>
+      <footprint>relayclock:FTR-B4_PTH</footprint>
+      <libsource lib="relayclock" part="FTR-B4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DC4E9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DCD77</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DCD7D</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>FTR-B4</value>
+      <footprint>relayclock:FTR-B4_PTH</footprint>
+      <libsource lib="relayclock" part="FTR-B4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5DE57C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E069C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E077E</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E07FE</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E08AF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="regul" part="AP1117-ADJ">
+      <aliases>
+        <alias>NCP1117-ADJ_SOT223</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, adjustable output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-ADJ</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="relayclock" part="FTR-B4">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FTR-B4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="B2" type="input"/>
+        <pin num="4" name="B3" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A2" type="input"/>
+        <pin num="7" name="A1" type="input"/>
+        <pin num="8" name="-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_DSG">
+      <description>Transistor N-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFETwith substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="relayclock">
+      <uri>/home/martin/projects/relayclock/kicad/FlipFlop/relayclock.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="SW2" pin="2"/>
+      <node ref="K4" pin="7"/>
+      <node ref="K4" pin="2"/>
+      <node ref="K4" pin="1"/>
+      <node ref="K2" pin="6"/>
+      <node ref="K2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="K1" pin="6"/>
+      <node ref="K1" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Q4" pin="2"/>
+      <node ref="K3" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="K3" pin="6"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(K2-Pad8)">
+      <node ref="K2" pin="8"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="4" name="CLK2">
+      <node ref="K2" pin="5"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(K3-Pad2)">
+      <node ref="K3" pin="2"/>
+    </net>
+    <net code="6" name="RESET_2">
+      <node ref="K3" pin="4"/>
+    </net>
+    <net code="7" name="RESET_1">
+      <node ref="K3" pin="5"/>
+    </net>
+    <net code="8" name="Net-(K3-Pad7)">
+      <node ref="K3" pin="7"/>
+    </net>
+    <net code="9" name="Net-(K3-Pad8)">
+      <node ref="Q3" pin="3"/>
+      <node ref="K3" pin="8"/>
+    </net>
+    <net code="10" name="CLK1">
+      <node ref="K1" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(K1-Pad8)">
+      <node ref="Q1" pin="3"/>
+      <node ref="K1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(K2-Pad2)">
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="14" name="Net-(K2-Pad4)">
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="15" name="Net-(K2-Pad7)">
+      <node ref="K2" pin="7"/>
+    </net>
+    <net code="16" name="Net-(K4-Pad8)">
+      <node ref="K4" pin="8"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="17" name="+12P">
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="K4" pin="3"/>
+      <node ref="K4" pin="6"/>
+    </net>
+    <net code="18" name="CLK1_EXT">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="19" name="CLK2_EXT">
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="20" name="RESET_EXT">
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="21" name="ADJ_EXT">
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="22" name="ADJ">
+      <node ref="U1" pin="2"/>
+      <node ref="K4" pin="5"/>
+      <node ref="K4" pin="4"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(K1-Pad2)">
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(K1-Pad7)">
+      <node ref="K1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(D1-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D3-Pad1)">
+      <node ref="D5" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="35" name="DOT1">
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+  </nets>
+</export>
